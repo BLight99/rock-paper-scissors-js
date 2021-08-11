@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dc1bf0613f.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>RPS</title>
+</head>
+<body>
+    <div class="showcase" id="showcase">
+        <h1 id="results"></h1>
+        <div class="results">
+            <div class="choice" id="p-choice">
+                <h1>&nbsp;?</h1>
+            </div>
+            <div class="choice" id="c-choice">
+                <h1>&nbsp;?</h1>
+            </div>
+        </div>
+        <div class="p-options" id="p-options">
+            <div class="btn-container" id="rock-container">
+                <button class="btn" id="rock-btn" onclick="play('rock')"><i class="far fa-hand-rock"></i></button>
+            </div>
+            <div class="btn-container" id="paper-container">
+                <button class="btn" id="paper-btn" onclick="play('paper')"><i class="far fa-hand-paper"></i></button>
+            </div>
+            <div class="btn-container" id="scissors-container">
+                <button class="btn" id="scissors-btn" onclick="play('scissors')"><i class="far fa-hand-scissors"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

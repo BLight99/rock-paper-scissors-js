@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f2f1e1;
+}
+
+#results {
+    font-size: 80px;
+    margin-left: 44%;
+    padding-top: 100px;
+    display: unset;
+    color: rgb(58, 58, 58);
+}
+
+.results {
+    width: 100%;
+    height: 500px;
+    color: rgb(58, 58, 58);
+    font-size: 120px;
+}
+
+.choice {
+    width: 50px;
+    margin-top: 200px;
+    display: inline-block;
+}
+
+#p-choice {
+    margin-left: 26%;
+    margin-right: 18%;
+}
+
+#c-choice {
+    margin-right: 26%;
+    margin-left: 18%;
+}
+
+.p-options {
+    width: 100%;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 90px;
+    color: rgb(58, 58, 58);
+    background: #f2f1e1;
+    border: 0;
+    /* margin-left: 16.5%; */
+}
+
+.btn-container {
+    width: 33%;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#rock-btn {
+    margin-left: 90%;
+}
+
+#paper-btn {
+    padding: 20px 25.5px;
+    margin-left: 48%;
+}
+
+#scissors-btn {
+    margin-left: 10%;
+}
+
+.btn:hover {
+    background: rgba(51, 51, 51, 0.205);
+    border-radius: 15px;
+}
+
+.btn:active {
+    background: rgba(51, 51, 51, 0.5);
+}
